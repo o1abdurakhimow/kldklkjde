@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    animation-name: totaq;
+    animation-duration: 4s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes totaq{
+    0%{
+        width: 200px;
+        height: 200px;
+        left: 0;
+        top: 0;
+        background-color:aqua;
+    }
+
+    25%{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        left: 400px;
+        top: 0;
+    }
+    50%{
+        width: 200px;
+        height: 200px;
+        background-color:pink ;
+        left: 400px;
+        top: 400px;
+    }
+    75%{
+        width: 200px;
+        height: 200px;
+         background-color: yellow;
+        left: 0px;
+        top: 400px;
+    }
+    100%{
+        width: 200px;
+        height: 200px;  
+         background-color: black;
+      
+        left: 0;
+        top: 0;
+    }
+}
